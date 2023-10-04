@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Made by 0sir1ss @ https://github.com/0sir1ss/Anubis
 import ast, io, tokenize, os, sys, platform, re, random, string, base64, hashlib, subprocess, requests
 from regex import F
@@ -7,7 +8,7 @@ from Crypto.Cipher import AES
 is_windows = True if platform.system() == "Windows" else False
 
 if is_windows:
-    os.system("title Anubis @ github.com/0sir1ss/Anubis")
+    os.system("title Anubis")
 
 def clear():
     if is_windows:
@@ -17,7 +18,7 @@ def clear():
 
 def pause():
     if is_windows:
-        os.system(f"pause >nul")
+        os.system(f"pause >NUL")
     else:
         input()
 
